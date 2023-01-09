@@ -1,0 +1,56 @@
+/* Default CSS Styles */
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font:inherit;
+}
+
+html{
+    color-scheme: dark light;
+}
+
+
+img, picture, svg, video{
+    display: block;
+    max-width: 100%;
+}
+
+body{
+    min-height: 100vh;
+    font-family: monospace, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width: 25em;
+    height: 30em;
+    border: solid black 2px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+
+.display{
+    width: 100%;
+    height: 7em;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    
+}
+
+.buttons{
+    flex: 1 1 auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,auto);
+}
+
