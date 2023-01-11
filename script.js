@@ -60,8 +60,6 @@ symbols.forEach((symbol) => {
 });
 
 equal.addEventListener('click', (e) =>{
-  console.log(number1);
-  console.log(number2);
   // if user has not put anything
   if (!number1 && !number2) {
     return;
