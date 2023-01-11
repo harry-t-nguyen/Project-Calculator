@@ -25,6 +25,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(green,lightblue);
 }
 
 .calculator{
@@ -35,6 +36,7 @@ body{
     display: flex;
     flex-direction: column;
     gap:1em;
+    background-color: rgb(255, 255, 255);
 }
 
 .display{
@@ -44,6 +46,9 @@ body{
     display: flex;
     flex-direction: column;
     text-align: end;
+    background-color: rgba(216, 210, 210, 0.774);
+    word-wrap: break-word;
+    word-break: break-all;
     
 }
 
@@ -52,5 +57,18 @@ body{
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(4,auto);
+    
 }
 
+.span-2{
+    grid-column: span 2;
+    background-color: rgb(215, 255, 252);
+}
+
+#equal{
+    background-color: rgb(215, 255, 252);
+}
+
+.symbol{
+    background-color: rgba(186, 243, 81, 0.87);
+}
