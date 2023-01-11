@@ -2,7 +2,7 @@ const display2 = document.querySelector('#display2');
 const numbers = document.querySelectorAll('.number');
 const symbols = document.querySelectorAll('.symbol');
 const display1 = document.querySelector('#display1');
-const equal = document.querySelector('#equal');
+const equal = document.querySelector('.equal');
 const clearbtn = document.querySelector("#clearbutton");
 const delbutton = document.querySelector('#deletebutton');
 
@@ -19,7 +19,7 @@ let lastoperation = '';
 
 // listen for user input
 numbers.forEach((number) => {
-    number.style.cssText = "background-color: rgba(128, 212, 191, 0.753);";
+    // number.style.cssText = "background-color: rgba(128, 212, 191, 0.753);";
     number.addEventListener('click',() =>{
       firstinput = false;
       if (number.textContent === '.' && !havedot){

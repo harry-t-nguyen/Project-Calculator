@@ -52,6 +52,9 @@ body{
     
 }
 
+.buttons > button:hover{
+    background-color: rgba(255, 255, 255, .90);
+}
 .buttons{
     flex: 1 1 auto;
     display: grid;
@@ -60,14 +63,19 @@ body{
     
 }
 
+.number{
+    background-color: rgba(128, 212, 191, 0.753);
+}
+
 .span-2{
     grid-column: span 2;
     background-color: rgb(215, 255, 252);
 }
 
-#equal{
-    background-color: rgb(215, 255, 252);
+.equal{
+    background-color: rgb(78, 245, 234);
 }
+
 
 .symbol{
     background-color: rgba(186, 243, 81, 0.87);
